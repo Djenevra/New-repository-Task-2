@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'branchapp',
     'mainApp',
     'django.contrib.admin',
     'django.contrib.auth',
