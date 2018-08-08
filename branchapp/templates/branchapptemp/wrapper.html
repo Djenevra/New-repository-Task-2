@@ -3,12 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Episode 2 videoconvertor</title>
-
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"
+    type="text/css">
 
   </head>
   <body style = "background: lightblue">
     {% block content%}
     {% endblock%}
 
+    <div class="jumbotron">
+      <div class="container">
+
+    <h1>Love your deeds and love music</h1>
+    <p> Demo Version.</p>
+
+        <a href="/" class ="btn btn-success btn-lg">Main Page</a>
+         <a href="/news" class ="btn btn-primary btn-lg">Know more</a>
+        </p>
+      </div>
+      </div>
+      <div class = "container">
+
+
+  </body>
+</html>
+<img src = "{% static 'branchapppics/Thinkingoutloud.jpeg' %} "class="img-thumbnail">
+
+  <a>
   </body>
 </html>
